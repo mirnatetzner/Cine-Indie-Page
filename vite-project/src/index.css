@@ -1,19 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
 :root {
+  min-height: 100vh;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  --primaria: #280D50;
+  --secundaria: #70AECF;
+  --roxo: #52406B;
+  --azulCeleste: #A7D4DF;
+  --cinzaGelo: #BFBFBF;
+  --monda: "Monda", sans-serif;
+  --montserrat: "Montserrat", sans-serif;
+  background-color: var(--secundaria);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
 
 a {
   font-weight: 500;
