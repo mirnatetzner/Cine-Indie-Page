@@ -1,0 +1,22 @@
+.nav{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;  
+  
+}
+#logoheader{
+  justify-content: flex-start;
+}
+
+.actions{
+  width: 50%;
+}
+
+
+.linknav{
+    background-color: var(--branco);
+    font-size: 2.4rem;
+    font-weight: 600;
+}

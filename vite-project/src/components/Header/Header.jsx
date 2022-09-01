@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import logo from '../../img/kineindie.png'
+import './HeaderStyle.css'
 
 export const Header = () => {
  
