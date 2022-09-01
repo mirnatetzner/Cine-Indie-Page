@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './FooterStyle.css'
 
-export const Header = () => {
+export const Footer = () => {
  
 
     return (
