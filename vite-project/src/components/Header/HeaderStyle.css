@@ -1,22 +1,30 @@
 .nav{
+  background-color: #70AECF;
+  padding-top: 10px;
+  padding-bottom: 4px;
   width: 100vw;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-end;  
+  align-items: center;
+  justify-content: space-between;  
   
 }
-#logoheader{
-  justify-content: flex-start;
-}
+  #logoheader{
+    justify-content: flex-start;
+    margin-left: 30px;
+  }
 
 .actions{
   width: 50%;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 15px;
 }
-
-
-.linknav{
-    background-color: var(--branco);
-    font-size: 2.4rem;
-    font-weight: 600;
-}
+  .linknav{
+      background-color: var(--branco);
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin-left: 10px;
+      margin-right: 10px;
+  }

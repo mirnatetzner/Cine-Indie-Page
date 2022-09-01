@@ -1,0 +1,20 @@
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.containerfooter{
+    background-color: #70AECF;
+    padding-top: 18px;
+    padding-bottom: 22px;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+}
+.imgfooter{
+    width: 22%;
+}

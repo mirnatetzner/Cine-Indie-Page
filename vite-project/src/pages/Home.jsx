@@ -1,7 +1,7 @@
-function App() {
+function Home() {
 
   return (
-    <div className="App">
+    <div className="Home">
      <p> olá mundo!!</p>
     </div>
   )
