@@ -7,10 +7,10 @@ import { useState, useEffect } from "react"
 export const CardsContainer = ({}) => {
     const [filmes, setFilmes] = useState([])
     useEffect(() => {
-      api.get("/filmes").then((response)=>{
-        console.log(response.data)
-        setFilmes(response.data)
-      })
+        api.get("/filmes").then((response)=>{
+            console.log(response.data)
+            setFilmes(response.data)
+        })
     
     }, [])
 
