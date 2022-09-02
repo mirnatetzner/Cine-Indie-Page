@@ -8,7 +8,7 @@ export const Footer = () => {
     return (
         <footer className='foot'>
             <div className='containerfooter'>
-                <img class='imgfooter' id='logoheader' src={logo}/> 
+                <img className='imgfooter' id='logoheader' src={logo}/> 
                 <div className='infosfinais'>
                     <h4>Termos legais</h4>
                     <p>Ajuda</p>
