@@ -6,15 +6,6 @@ const api = axios.create({
   },
 });
 
-export const getFilmes = async () => {
-  try {
-    const response = await api.get("/filmes");
-    const Filmes = await response.data;
-    return Filmes;
-  } catch (erro) {
-    console.log(erro);
-  }
-};
 
 export const getFilmesID = async (id) => {
   try {
