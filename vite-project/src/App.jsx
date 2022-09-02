@@ -1,10 +1,11 @@
 import './App.css'
+import { CardsContainer } from './components/CardContainer/CardContainer'
 
 function App() {
 
   return (
     <div className="App">
-     <p> olá mundo!!</p>
+      <CardsContainer/>
     </div>
   )
 }
