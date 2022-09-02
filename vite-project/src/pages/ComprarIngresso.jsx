@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import { Button } from "../components/Buttons/Button";
 
 function ComprarIngresso () {
 
@@ -46,49 +47,49 @@ function ComprarIngresso () {
     <div className="App">
         <h2>Comprar ingresso</h2>
       <form onSubmit={handleSubmit}>
+        <label> Escolha o Filme: </label>
         <input
           type="text"
           value={filme}
           placeholder="Filme"
           onChange={(e) => setFilme(e.target.value)}
         />
+        <label> Sala de exibição:</label>
         <input
           type="number"
           value={sala}
           placeholder="Sala de exibição"
           onChange={(e) => setSala(e.target.value)}
         />
-        
+        <label>Numeração da cadeira: </label>
         <input
           type="text"
           value={cadeira}
           placeholder="Número da cadeira"
           onChange={(e) => setCadeira(e.target.value)}
         />
-
+        <label> Dia: </label>
         <input
           type="date"
           value={data}
           placeholder="Data da sessão"
           onChange={(e) => setData(e.target.value)}
         />
-
+        <label> Hora: </label>
         <input
           type="time"
           value={hora}
           placeholder="Hora da sessão"
           onChange={(e) => setHora(e.target.value)}
         />
-
+       <label> Preço colaborativo: </label>
         <input
           type="number"
           value={precoIngresso}
           placeholder="preço do ingresso"
           onChange={(e) => setPrecoIngresso(e.target.value)}
         />
-
-        <button type="submit">Comprar Ingresso</button>
-
+        <Button type='submit' textoBtn='Comprar Ingresso'/>
         <div className="message">{message ? <p>{message}</p> : null}</div>
       </form>
     </div>

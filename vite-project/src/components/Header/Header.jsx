@@ -11,6 +11,7 @@ export const Header = () => {
         
         <nav className='actions'>
             
+            <Link className='linknav' to='/comprar_ingresso'> Comprar ingresso</Link>
             <Link className='linknav' to='/parceiros' > Parceiros </Link>
             <Link className='linknav' to='/sobre_nos' > Sobre Nós </Link>
 
