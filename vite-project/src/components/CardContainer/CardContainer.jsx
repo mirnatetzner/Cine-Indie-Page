@@ -16,7 +16,7 @@ export const CardsContainer = ({}) => {
     return (
         <div className="card-container">
             {filmes.map((elemento, index)=>{
-                return <Card key={index} title={elemento.nome} sinopse={elemento.sinopse} ano={elemento.ano}/>
+                return <Card key={index} title={elemento.nome} sinopse={elemento.sinopse} ano={elemento.anoLancamento}/>
             })}
 
         </div>
