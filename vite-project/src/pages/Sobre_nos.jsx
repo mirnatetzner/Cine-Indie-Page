@@ -1,10 +1,8 @@
-
-
 function SobreNos() {
 
   return (
     <div className="sobrenos">
-     <p> olá mundo!!</p>
+     <p> olá sobre nós!!</p>
     </div>
   )
 }

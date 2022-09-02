@@ -1,9 +1,8 @@
-
 function Parceiros() {
 
     return (
       <div className="Parceiros">
-       <p> olá mundo!!</p>
+       <p> olá parceiros!!</p>
       </div>
     )
   }
