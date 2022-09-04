@@ -1,6 +1,7 @@
 import { Card } from "../Card/Card"
 import { api } from "../../services/Api"
 import { useState, useEffect } from "react"
+import './CardContainer.css'
 
 
 export const CardsContainer = ({}) => {
