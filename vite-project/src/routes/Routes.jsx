@@ -5,7 +5,7 @@ import { Header } from '../components/Header/Header'
 import Filmes from '../pages/Filmes/Filmes'
 import Home from '../pages/Home'
 import Parceiros from '../pages/Parceiros'
-import SobreNos from '../pages/Sobre_nos'
+import SobreNos from '../pages/SobreNos'
 
 const Routes = () => {
   return (

@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('cooperhewitt-semibold-webfont.woff2') format('woff2'),
+         url('cooperhewitt-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: CooperHewitt;
+}
+body{
+    width: 100%;
+}
+
+.conhecaNossos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+
+.colaboradoresContainerGeral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+    .colaboradoresContainer{
+        background-color:#70AECF;
+        display: flex; flex-direction: row; justify-content: flex-end;
+        position: relative;
+        right: 30%;
+        border-radius: 60px;
+        margin-right: 3%;
+    }
+    .colaboradoresContainer2{
+        background-color:#A7D4DF;
+        display: flex; flex-direction: row; justify-content: flex-start;
+        position: relative;
+        right: -30%;
+        border-radius: 60px 0px 0px 60px;
+        margin: 61px 0px 0px 0px; 
+    }
+    .colaboradorcard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        margin: 4%;
+    }
+b {
+    font-size: 20px;
+}
+
+.redirecionamento{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin: 6%;
+}
+.redirecionamentobtn{
+    background-color: #70AECF;
+    padding: 10px;
+    border-radius: 60px;
+    width: 300px;
+    position: inherit;
+}
+
+
+#parceiroslinkto{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    font-size: 23px;
+    color: #70AECF;
+    text-decoration: none;
+    text-decoration-color: #70AECF;
+} #parceiroslinkto a {
+    color:  #280D50
+}
