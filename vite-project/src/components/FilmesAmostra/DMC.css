@@ -9,6 +9,6 @@
     }
     .DMC-Description {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: col;
+        justify-content: center;
     }
