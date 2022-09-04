@@ -6,7 +6,6 @@ function Home() {
 
   return (
     <div className="Home">
-
       <Introduction />
       <DriveMyCar />
     </div>
