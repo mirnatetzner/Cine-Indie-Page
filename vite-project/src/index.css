@@ -5,6 +5,15 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@font-face {
+  font-family: 'CooperHewitt';
+  src: url('cooperhewitt-semibold-webfont.woff2') format('woff2'),
+       url('cooperhewitt-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 :root {
   min-height: 100vh;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
