@@ -1,10 +1,14 @@
+import { Introduction } from "../components/Elements/Introduction"
 
 
 function SobreNos() {
 
   return (
     <div className="sobrenos">
-     <p> olá mundo!!</p>
+
+      <Introduction />
+      <NossoTime />
+
     </div>
   )
 }
