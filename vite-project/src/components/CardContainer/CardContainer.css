@@ -1,4 +1,19 @@
-.card-container {
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('cooperhewitt-semibold-webfont.woff2') format('woff2'),
+         url('cooperhewitt-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+.card-container{
+    font-family: "Montserrat", sans-serif;
+}
+.cards {
+    margin: 15px;
+    margin-left: 10%;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3, 400px);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
 }
