@@ -1,6 +1,7 @@
 import { Card } from "../Card/Card"
 import { api } from "../../services/Api"
 import { useState, useEffect } from "react"
+import './CardContainer.css'
 
 
 export const CardsContainer = ({}) => {
@@ -15,10 +16,11 @@ export const CardsContainer = ({}) => {
 
     return (
         <div className="card-container">
+            <div className="cards">
             {filmes.map((elemento, index)=>{
                 return <Card key={index} image={elemento.image}title={elemento.nome} sinopse={elemento.sinopse} ano={elemento.anoLancamento}/>
             })}
-
+        </div>
         </div>
     )
 }

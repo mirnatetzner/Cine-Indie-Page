@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { CardsContainer } from "../../components/CardContainer/CardContainer"
+import './Filmes.css'
 
 function Filmes() {
 
