@@ -1,8 +1,7 @@
 import { Card } from "../Card/Card"
-// import './CardsContainer.css'
 import { api } from "../../services/Api"
 import { useState, useEffect } from "react"
-// app.use(cors()) < NAO ESQUECER !!!!
+
 
 export const CardsContainer = ({}) => {
     const [filmes, setFilmes] = useState([])
@@ -17,7 +16,7 @@ export const CardsContainer = ({}) => {
     return (
         <div className="card-container">
             {filmes.map((elemento, index)=>{
-                return <Card key={index} title={elemento.nome}/>
+                return <Card key={index} title={elemento.nome} sinopse={elemento.sinopse} ano={elemento.anoLancamento}/>
             })}
 
         </div>
