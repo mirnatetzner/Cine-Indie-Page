@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { Button } from "../components/Buttons/Button";
 
+
 function ComprarIngresso () {
 
 
@@ -51,7 +52,7 @@ function ComprarIngresso () {
         <input
           type="text"
           value={filme}
-          placeholder="Filme"
+          placeholder="Use apenas letras"
           onChange={(e) => setFilme(e.target.value)}
         />
         <label> Sala de exibição:</label>
