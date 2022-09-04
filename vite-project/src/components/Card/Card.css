@@ -1,0 +1,17 @@
+.containerFilmes{
+    display: flex; 
+}
+
+.nome_imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+}
