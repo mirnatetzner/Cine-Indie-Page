@@ -6,6 +6,7 @@ import Filmes from '../pages/Filmes/Filmes'
 import Home from '../pages/Home'
 import Parceiros from '../pages/Parceiros'
 import SobreNos from '../pages/Sobre_nos'
+import ComprarIngresso from '../pages/ComprarIngresso'
 
 const Routes = () => {
   return (
@@ -16,6 +17,7 @@ const Routes = () => {
         <Route path='/parceiros' element={<Parceiros />} />
         <Route path='/sobre_nos' element={<SobreNos />} /> 
         <Route path='/filmes' element={<Filmes />} /> 
+        <Route path='comprar-ingresso' element={<ComprarIngresso />} />
       </Switch>
       <Footer />
     </BrowserRouter>
