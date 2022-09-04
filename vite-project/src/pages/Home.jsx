@@ -1,5 +1,5 @@
-import { DriveMyCar } from "../components/HomeElements/DriveMYCar"
-import { Introduction } from "../components/HomeElements/Introduction"
+import { DriveMyCar } from "../components/Elements/DriveMYCar"
+import { Introduction } from "../components/Elements/Introduction"
 import { CardsContainer } from "../components/CardContainer/CardContainer"
 
 function Home() {
