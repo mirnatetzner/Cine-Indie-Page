@@ -18,7 +18,8 @@
   width: 50%;
   padding-right: 10px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: flex-end;
   margin-right: 15px;
 }
   .linknav{
