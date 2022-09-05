@@ -1,27 +1,50 @@
-import logo from '../../img/logooriginal.png'
-import destinosLigados from '../../img/destinosLigados.jpeg'
-import './CarouselStyle.css'
+import React, { useState, useEffect } from "react";
 
-function Carousel () {
-    return (
-        <div className="container">
-            <div className="logo">
-            <img id='logoheader' src={logo} width='180px'/>
-            </div>
-            <div className="carousel">
-                <div className="item">
-                    <div className="image">
-                    <img id='destinos' src={destinosLigados} />
-                    </div>
-                    <div className="info">
-                        <span className="name">Filme 1</span>
-                        <span className="dateTime">Data e Hora</span>
-                        <span className="sinopse">Descrição do filme</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
+import useInterval from "../../hooks/useInterval";
+
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+
+import "./CarouselStyle.css";
+
+function Slideshow({ item }) {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    setIndex(0);
+  }, []);
+
+  const next = () => {
+    if (index === item.length - 1) {
+      setIndex(0);
+    } else {
+      setIndex(index + 1);
+    }
+  };
+
+  const prev = () => {
+    if (index === 0) {
+      setIndex(item.length - 1);
+    } else {
+      setIndex(index - 1);
+    }
+  };
+
+  useInterval(() => {
+    next();
+  }, 5000);
+
+  return (
+    <div className="slideshow">
+      <div className="imagens">
+        <img src={item[index]} alt="" />
+      </div>
+      <div className="acoes">
+        <button onClick={prev}>←</button>
+        <button onClick={next}>→</button>
+      </div>
+    </div>
+  );
 }
 
-export default Carousel
+export default Slideshow;
