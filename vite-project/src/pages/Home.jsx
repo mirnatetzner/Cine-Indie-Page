@@ -17,9 +17,10 @@ function Home() {
 
   return (
     <div className="Home">
-      <Carousel item={items} />
       <Introduction />
+      <Carousel item={items} />
       <DriveMyCar />
+      <CardsContainer />
     </div>
   );
 }
