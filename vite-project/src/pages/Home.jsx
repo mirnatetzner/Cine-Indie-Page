@@ -1,6 +1,8 @@
 import Carousel from "../components/Carousel/Carousel";
 import { useEffect, useState } from "react";
-// import "../components/Carousel/CarouselStyle.css";
+import { DriveMyCar } from "../components/Elements/DriveMYCar"
+import { Introduction } from "../components/Elements/Introduction"
+import { CardsContainer } from "../components/CardContainer/CardContainer"
 
 function Home() {
   const [data, setData] = useState([]);
@@ -16,8 +18,10 @@ function Home() {
   return (
     <div className="Home">
       <Carousel item={items} />
+      <Introduction />
+      <DriveMyCar />
     </div>
   );
 }
 
-export default Home;
+export default Home

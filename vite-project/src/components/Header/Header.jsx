@@ -10,10 +10,10 @@ export const Header = () => {
         <img id='logoheader' src={logo} width='180px'/> 
         
         <nav className='actions'>
-            
+            <Link className='linknav' to='/' > Home </Link>
+            <Link className='linknav' to='/filmes' > Filmes </Link>
             <Link className='linknav' to='/parceiros' > Parceiros </Link>
             <Link className='linknav' to='/sobre_nos' > Sobre Nós </Link>
-
         </nav>
     </header>
     )
