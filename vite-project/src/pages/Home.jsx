@@ -20,7 +20,6 @@ function Home() {
       <Introduction />
       <Carousel item={items} />
       <DriveMyCar />
-      <CardsContainer />
     </div>
   );
 }
