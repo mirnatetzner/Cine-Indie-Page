@@ -7,11 +7,10 @@ export const Header = () => {
 
     return (
     <header className="nav">
-        <img id='logoheader' src={logo} width='260px'/> 
+        <Link className='linknav' to='/'><img id='logoheader' src={logo} width='260px'/></Link>
         
         <nav className='actions'>
-            <Link className='linknav' to='/' > Home </Link>
-            <Link className='linknav' to='/filmes' > Filmes </Link>
+            <Link className='linknav' to='/filmes' > Em cartaz </Link>
             <Link className='linknav' to='/parceiros' > Parceiros </Link>
             <Link className='linknav' to='/sobre_nos' > Sobre Nós </Link>
         </nav>
