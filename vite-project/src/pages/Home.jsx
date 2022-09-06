@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { DriveMyCar } from "../components/Elements/DriveMYCar"
 import { Introduction } from "../components/Elements/Introduction"
 import { CardsContainer } from "../components/CardContainer/CardContainer"
+import { LaJetee } from "../components/Elements/LaJetee";
 
 function Home() {
   const [data, setData] = useState([]);
@@ -20,6 +21,7 @@ function Home() {
       <Introduction />
       <Carousel item={items} />
       <DriveMyCar />
+      <LaJetee />
     </div>
   );
 }

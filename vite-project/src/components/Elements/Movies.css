@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("./font/Montserrat-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal; font-style: normal;
+
+    font-family: Montserrat Italic;
+    src: url("./font/Montserrat-Italic-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal; font-style: normal;
+
+}
+.dmyContainer{
+    background-color:#70AECF;
+    display: flex; flex-direction: row; justify-content: flex-end;
+    border-radius: 60px;
+    margin-right: 4%;
+}
+.lajeteeContainer{
+    background-color:#70AECF;
+    display: flex; flex-direction: row-reverse; justify-content: flex-end;
+    border-radius: 60px;
+    margin-right: 4%;
+}
+
+.DriveMyCar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    padding-left: 100px;
+    margin: 1%; 
+}
+.image-movie{
+    display: flex; justify-content: center; align-items: center;
+    margin: 2%;
+}
+    #imageDMC{
+    }
+    #imageLaJetee{
+    }
+    .DMC_Description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sinopse{
+        font-family: Montserrat;
+        color:  #280D50;
+        margin-top: 17px;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .descricao{
+        font-family: Montserrat Italic;
+        color:  #280D50;
+        margin-top: 17px;
+        padding-left: 30px; padding-right: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .fonte{
+        display: flex; flex-direction: row; justify-content:flex-start;
+        color: #A7D4DF;
+;
+    }
+h2{
+    font-family: Montserrat Italic;
+    margin-top: 5%;
+    color:  #280D50;
+}
+h4{
+    font-family: Montserrat;
+    color:  #280D50;
+}
