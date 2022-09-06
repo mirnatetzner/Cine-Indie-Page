@@ -14,6 +14,8 @@ body{
 }
 
 .partnersPage {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 3%;
     margin-top: 3%;
@@ -28,8 +30,14 @@ body{
 .partners {
     display: flex;
     flex-direction: row;
-    padding: 10%;
-    border: #10131b;
+    justify-content: space-around;
+    border-radius: 10%;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    width: min-content;
+    align-items: center;
+    color: #2b334b;
 }
 
 .individualPartners {
@@ -39,31 +47,38 @@ body{
     background-color: #fff;
     align-items: center;
     color: #fff;
-    padding: 100px;
-}
-.image {
-    border: 2px #10131b;
+    padding: 60px;
 }
 
-.button {
+.image {
+    border: 5px #10131b;
+}
+
+#button {
     width: 100%;
-    height: 40px;
+    height: 50px;
+    margin-top: 10%;
     font-weight: bold;
     font-size: 15px;
     text-align: center;
     background: #2b334b;
     color: #fff;
     border: 2px #020203;
-    border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
 }
 
-a:link {
-    color: #fff;
- }
-
-.button:hover {
+#button:hover {
     background: #10131b;
+    width: 120%;
+    height: 60px;
+    font-size: 20px;
+
     
+}
+
+#link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
 }

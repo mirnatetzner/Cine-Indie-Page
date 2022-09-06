@@ -18,8 +18,8 @@ function Partners() {
                     width='250px'
                     height='250px'
                     /> 
-                    <button className='button'>
-                        <a href='https://www.playartecinemas.com.br/'>
+                    <button id='button'>
+                        <a href='https://www.playartecinemas.com.br/' id="link">
                             Conheça o PlayArte Cinemas
                         </a>
                     </button>
@@ -33,8 +33,8 @@ function Partners() {
                     width='250px'
                     height='250px'
                     /> 
-                    <button className='button'>
-                        <a href='http://www.grupoestacao.com.br/'>
+                    <button id='button'>
+                        <a href='http://www.grupoestacao.com.br/' id="link">
                             Conheça a Estação Net Cinema
                         </a>
                     </button>
@@ -48,8 +48,8 @@ function Partners() {
                     width='250px'
                     height='250px'
                     />
-                    <button className='button'>
-                        <a href='http://orientcinemas.com.br/'>
+                    <button id='button'>
+                        <a href='http://orientcinemas.com.br/' id="link">
                             Conheça a Estação Net Cinema
                         </a>
                     </button> 
