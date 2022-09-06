@@ -38,7 +38,9 @@ body{
     width: min-content;
     align-items: center;
     color: #2b334b;
+    
 }
+
 
 .individualPartners {
     display: flex;
@@ -48,6 +50,10 @@ body{
     align-items: center;
     color: #fff;
     padding: 60px;
+    opacity:1;
+}
+.individualPartners:hover{
+        opacity:0.5;
 }
 
 .image {
@@ -70,7 +76,7 @@ body{
 
 #button:hover {
     background: #10131b;
-    width: 120%;
+    width: 110%;
     height: 60px;
     font-size: 20px;
 
