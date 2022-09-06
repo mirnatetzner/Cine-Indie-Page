@@ -1,4 +1,3 @@
-
 function Parceiros() {
 
     return (
