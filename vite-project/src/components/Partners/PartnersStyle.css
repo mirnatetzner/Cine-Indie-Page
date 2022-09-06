@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('cooperhewitt-semibold-webfont.woff2') format('woff2'),
+         url('cooperhewitt-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: CooperHewitt;
+}
+body{
+    width: 100%;
+}
+
+.partnersPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+.title {
+    color: #2b334b;
+    font-size: 1.6em;
+    align-items: center;
+}
+
+.partners {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10%;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    width: min-content;
+    align-items: center;
+    color: #2b334b;
+}
+
+.individualPartners {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    align-items: center;
+    color: #fff;
+    padding: 60px;
+}
+
+.image {
+    border: 5px #10131b;
+}
+
+#button {
+    width: 100%;
+    height: 50px;
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    background: #2b334b;
+    color: #fff;
+    border: 2px #020203;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#button:hover {
+    background: #10131b;
+    width: 120%;
+    height: 60px;
+    font-size: 20px;
+
+    
+}
+
+#link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
