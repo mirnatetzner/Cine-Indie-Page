@@ -2,16 +2,24 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
 }
 
 @font-face {
-  font-family: 'CooperHewitt';
-  src: url('cooperhewitt-semibold-webfont.woff2') format('woff2'),
-       url('cooperhewitt-semibold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  font-family: Garmond Italic;
+  src: url("./font/EBGaramond-Italic-VariableFont.ttf") format('truetype');
+  font-weight: normal; font-style: normal;
 
+  font-family: Garmond;
+  src: url("./font/EBGaramond-VariableFont.ttf") format('truetype');
+  font-weight: normal; font-style: normal;
+
+  font-family: Montserrat;
+  src: url("./font/Montserrat-VariableFont_wght.ttf") format('truetype');
+  font-weight: normal; font-style: normal;
+
+  font-family: Montserrat Italic;
+  src: url("./font/Montserrat-Italic-VariableFont_wght.ttf") format('truetype');
+  font-weight: normal; font-style: normal;
 }
 
 :root {
