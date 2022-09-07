@@ -14,8 +14,8 @@ export const getFilmes = () => {
     return axios.get(`${url}/filmes/${id}`)
   }
   
-  export const createFilmes = (newFilme) => {
-    return axios.post(url, newFilme)
+  export const createFilme = (newFilme) => {
+    return axios.post(`${url}/filmes`, newFilme)
   }
   
   export const updateUser = () => {}

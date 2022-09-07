@@ -6,7 +6,7 @@ export const Admin = ()=>{
             <h1>Admin</h1>
             <div className="menu">
                 <div> <Link className='linknav' to='/lista_de_filmes' > Filmes Cadastrados </Link></div>
-                <div>Novo Filme</div>
+                <div><Link className='linknav' to='/novo_filme' > Novo Filme </Link></div>
                 <div>Editar / Excluir Filme</div>
                
 
