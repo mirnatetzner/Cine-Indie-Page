@@ -6,6 +6,7 @@ import { CardsContainer } from "../components/CardContainer/CardContainer"
 import { LaJetee } from "../components/Elements/LaJetee";
 import Loading from "../components/Loading/Loading";
 
+
 function Home() {
   const [data, setData] = useState([]);
   const [removeLoading, setRemoveLoading] = useState(false)

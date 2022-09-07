@@ -8,7 +8,6 @@ export const Header = () => {
     return (
     <header className="nav">
         <Link className='linknav' to='/'><img id='logoheader' src={logo} width='260px'/></Link>
-        
         <nav className='actions'>
             <Link className='linknav' to='/filmes' > Em cartaz </Link>
             <Link className='linknav' to='/parceiros' > Parceiros </Link>

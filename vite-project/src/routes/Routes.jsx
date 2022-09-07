@@ -7,6 +7,8 @@ import Home from '../pages/Home'
 import Parceiros from '../pages/Parceiros'
 import SobreNos from '../pages/SobreNos'
 import ComprarIngresso from '../pages/ComprarIngresso'
+import { Admin } from '../pages/Admin/Admin'
+import { ListaDeFilmes } from '../pages/ListaDeFilmes/ListaDeFilmes'
 
 
 const Routes = () => {
@@ -18,7 +20,9 @@ const Routes = () => {
         <Route path='/parceiros' element={<Parceiros />} />
         <Route path='/sobre_nos' element={<SobreNos />} /> 
         <Route path='/filmes' element={<Filmes />} /> 
-        <Route path='comprar-ingresso' element={<ComprarIngresso />} />
+        <Route path='/comprar-ingresso' element={<ComprarIngresso />} />
+        <Route path='/admin' element={<Admin />} />
+        <Route path='/lista_de_filmes'element={<ListaDeFilmes />} />
       </Switch>
       <Footer />
     </BrowserRouter>

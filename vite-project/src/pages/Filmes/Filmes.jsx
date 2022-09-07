@@ -8,7 +8,8 @@ function Filmes() {
     <div className="Filmes">
      <h1>Filmes</h1>
      <Link to='/comprar-ingresso'>
-     <CardsContainer />
+        <CardsContainer />
+      
       </Link> 
     </div>
   )
