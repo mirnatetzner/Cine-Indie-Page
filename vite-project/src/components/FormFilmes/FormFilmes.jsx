@@ -20,7 +20,7 @@ export const FormFilmes = (props) => {
         onChange={(event) => {
           setFilme({
             ...Filme,
-            name: event.target.value
+            nome: event.target.value
           })
         }} />
       <input 
