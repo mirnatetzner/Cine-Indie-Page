@@ -21,10 +21,25 @@ body{
     margin-top: 3%;
 }
 
-.title {
-    color: #2b334b;
-    font-size: 1.6em;
+.titlePaceiros {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
     align-items: center;
+    padding-left: 5rem;
+    background-color: #7c97e7;
+    opacity: 0.8;
+    color: #2b334b;
+    align-items: center;
+    font-size: 1rem;
+    width: 100vw;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+   
+}
+
+.titlePaceiros:hover{
+    opacity: 1;
+    
 }
 
 .partners {
@@ -37,7 +52,7 @@ body{
     background-color: #fff;
     width: min-content;
     align-items: center;
-    color: #2b334b;
+    color: #737b92;
     
 }
 
@@ -53,7 +68,12 @@ body{
     opacity:1;
 }
 .individualPartners:hover{
-        opacity:0.5;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(15px) translateX(15px);
+  
+        
+
+
 }
 
 .image {

@@ -23,7 +23,7 @@
 }
 
 :root {
- /*  min-height: 100vh;
+   min-height: 100vh;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -34,7 +34,7 @@
   --azulCeleste: #A7D4DF;
   --cinzaGelo: #BFBFBF;
   --monda: "Monda", sans-serif;
-  --montserrat: "Montserrat", sans-serif; */
+  --montserrat: "Montserrat", sans-serif; 
   background-color:#ffffff;
   font-synthesis: none;
   text-rendering: optimizeLegibility;

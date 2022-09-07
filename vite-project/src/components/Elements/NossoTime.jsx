@@ -7,7 +7,7 @@ export const NossoTime = () => {
     return (
         <div className="nossotime">
             <div className="conhecaNossos">
-                <h2 className="title"> Conheça nossos colaboradores! </h2>
+                <h2 className="titleNossotime"> Conheça nossos colaboradores! </h2>
             </div>
             <table className="colaboradoresContainerGeral">
                 <tr className="colaboradoresContainer">    

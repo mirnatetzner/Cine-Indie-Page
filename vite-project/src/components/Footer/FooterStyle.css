@@ -5,6 +5,7 @@
 
 *{
     font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    color: black;
 }
 
 footer {
@@ -21,6 +22,7 @@ footer {
 .juntese {
     font-size: 15px;
     width: max-content;
+    text-align: left;
 }
 
 .juntese:hover{
@@ -28,6 +30,7 @@ footer {
     text-decoration: inherit;
   }
 
+ 
 .containerfooter{
     padding-top: 18px;
     padding-bottom: 22px;

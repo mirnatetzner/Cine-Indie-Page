@@ -21,7 +21,10 @@ body{
     align-items: center;
     justify-content: center;
     padding: 3%;
-    margin-top: 3%;
+    height: 13rem;
+    background-color: #b8d4e4;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+
 }
 
 
@@ -42,11 +45,13 @@ body{
         border-bottom-right-radius: 60px; 
         width: 60%;
         margin-right: 3%;
+        box-shadow: 0px 0 10px rgba(252, 252, 252, 0.5);
     }
 
 .colaboradoresContainer:hover{
     width: 65%;
     transition: 3s;
+    box-shadow: 0px 0 10px rgba(252, 252, 252, 0.5);
 }
 
  .colaboradoresContainer2{
@@ -61,12 +66,14 @@ body{
         margin: 61px 0px 0px 0px; 
         left:25%;
         width:75%;
+        box-shadow: 0px 0 10px rgba(252, 252, 252, 0.5);
       
     }
     .colaboradoresContainer2:hover{
         width: 80%;
         left: 20%;
         transition: 3s;
+        box-shadow: 0px 0 10px rgba(252, 252, 252, 0.5);
     }
 
    
