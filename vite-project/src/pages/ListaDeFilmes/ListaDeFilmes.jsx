@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { TabelaFilmes } from '../../components/TabelaFilmes/TabelaFilmes'
-import {getFilmes} from '../../services/Api'
+import {getFilmes, deleteFilme} from '../../services/Api'
 import styles from './ListaDeFilmes.module.css'
 
 export const ListaDeFilmes = () => {
@@ -27,7 +27,7 @@ export const ListaDeFilmes = () => {
           if(deleteFilmeConfirm) {
             deleteFilme(id).then(() => {
               alert("Filme deletado com sucesso")
-              fetchFilme()
+              fetchFilmes()
             }).catch(error => {
               alert("Erro ao deletar este filme")
             })
