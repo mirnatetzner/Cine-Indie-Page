@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('cooperhewitt-semibold-webfont.woff2') format('woff2'),
+         url('cooperhewitt-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: CooperHewitt;
+}
+body{
+    width: 100%;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+.title {
+    font-size: 1.8em;
+    color: #2b334b;
+    margin-bottom: 5%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 60px;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    width: min-content;
+    align-items: center;
+    color: #2b334b;
+}
+
+.lineUp {
+    display: flex;
+    flex-direction: row;
+}
+
+.lineDown {
+    display: flex;
+    flex-direction: row;
+}
+
+.field {
+    padding-right: 5%;
+}
+
+.input {
+    min-width: 200px;
+    border-radius: 22px;
+    margin-bottom: 10%;
+    border: 2px #2b334b solid;
+    padding: 5px;
+    margin: 0px 0px 12px -5px;
+}
+
+.input i {
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.input input {
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
