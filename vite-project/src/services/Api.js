@@ -6,3 +6,20 @@ export const api = axios.create({
     baseURL: `${url}`
 })
 
+export const getFilmes = () => {
+    return axios.get(`${url}/filmes`)
+  }
+
+  export const getFilmesById = ()=>{
+    return axios.get(`${url}/filmes/${id}`)
+  }
+  
+  export const createFilmes = (newFilme) => {
+    return axios.post(url, newFilme)
+  }
+  
+  export const updateUser = () => {}
+  
+  export const deleteFilme = (id) => {
+    return axios.delete(`${url}/filmes/${id}`)
+  }

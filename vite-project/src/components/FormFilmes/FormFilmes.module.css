@@ -1,0 +1,21 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+    margin: 0 auto;
+  }
+  .form input {
+    margin-bottom: 10px;
+    height: 30px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #a0a0a0;
+  }
+  
+  .form button {
+    height: 35px;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    cursor: pointer;
+  }
