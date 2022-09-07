@@ -26,23 +26,37 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    height: 70rem;
+    background-color: #280D50;
 }
     .colaboradoresContainer{
         background-color:#70AECF;
-        display: flex; flex-direction: row; justify-content: flex-end;
-        position: relative;
-        right: 30%;
-        border-radius: 60px;
+        display: flex; 
+        flex-direction: row; 
+        justify-content: flex-end;
+         position: relative; 
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px; 
+        width: 60%;
         margin-right: 3%;
     }
-    .colaboradoresContainer2{
+
+ .colaboradoresContainer2{
         background-color:#A7D4DF;
-        display: flex; flex-direction: row; justify-content: flex-start;
-        position: relative;
-        right: -30%;
+        display: flex; 
+        flex-direction: row; 
+        justify-content: flex-start;
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px; 
+        position: relative; 
         border-radius: 60px 0px 0px 60px;
         margin: 61px 0px 0px 0px; 
+        left:25%;
+        width:75%;
+      
     }
+
+   
     .colaboradorcard{
         display: flex;
         flex-direction: column;
@@ -57,6 +71,7 @@ b {
 .redirecionamento{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 100px;
     margin: 6%;
 }
@@ -66,17 +81,26 @@ b {
     border-radius: 60px;
     width: 300px;
     position: inherit;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+    opacity:0.8;
+}
+.redirecionamentobtn:hover{
+    opacity:1;
 }
 
 
 #parceiroslinkto{
     display: flex;
     justify-content: center;
-    padding: 10%;
+    padding: 7%;
     font-size: 23px;
     color: #70AECF;
     text-decoration: none;
     text-decoration-color: #70AECF;
-} #parceiroslinkto a {
+    text-align: center;
+    
+
+} 
+#parceiroslinkto a {
     color:  #280D50
 }
