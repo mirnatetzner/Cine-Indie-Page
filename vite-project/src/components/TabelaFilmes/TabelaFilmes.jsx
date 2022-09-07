@@ -26,7 +26,7 @@ export const TabelaFilmes = (props) => {
             <td>{filme.sinopse}</td>
             <td>{filme.image}</td>
             <td>
-              <Link to={`/editar-usuario/${filme.id}`}>Editar</Link> 
+              <Link to={`/editar_filme/${filme.id}`}>Editar</Link> 
               - 
               <a onClick={(e) => {
                  e.preventDefault()

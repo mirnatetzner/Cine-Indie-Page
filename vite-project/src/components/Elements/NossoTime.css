@@ -1,21 +1,22 @@
 @font-face {
-    font-family: 'CooperHewitt';
-    src: url('cooperhewitt-semibold-webfont.woff2') format('woff2'),
-         url('cooperhewitt-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: Montserrat;
+    src: url("./font/Montserrat-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal; font-style: normal;
+
+    font-family: Montserrat Italic;
+    src: url("./font/Montserrat-Italic-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal; font-style: normal;
 }
 
 *{
-    font-family: CooperHewitt;
+    font-family: Montserrat;
 }
 body{
     width: 100%;
 }
 
 .conhecaNossos{
-    display: flex;
-    flex-direction: column;
+    display: flex; flex-direction: column;
     align-items: center;
     padding: 3%;
     margin-top: 3%;
@@ -63,7 +64,7 @@ b {
 .redirecionamentobtn{
     background-color: #70AECF;
     padding: 10px;
-    border-radius: 60px;
+    border-radius: 56px;
     width: 300px;
     position: inherit;
 }

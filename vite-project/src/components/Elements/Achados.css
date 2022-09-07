@@ -1,0 +1,35 @@
+.containerMovies{
+    width: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+
+}  
+    .Container1{
+        background-color: #A7D4DF;
+        display: flex; flex-direction: row; justify-content: space-around;   
+    }
+
+    .moviedescriptionZero{
+        background-image: url("https://m.media-amazon.com/images/M/MV5BY2NkNDdmZTUtYWQ2MC00MjUyLTk1MGMtNWZiZjI3ZWMzNDYwXkEyXkFqcGdeQXVyNTY4ODAxODI@._V1_FMjpg_UX1000_.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .Container2{
+        background-color: #52406B ;
+        display: flex; flex-direction: row-reverse; justify-content: space-around;
+    }
+    #imagemFilme{
+        
+    }
+
+    .moviedescription{
+        
+    }
+
+h2{
+    font-size: 20px;
+}
+h4{
+
+}

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("./font/Montserrat-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal; font-style: normal;
+
+    font-family: Montserrat Italic;
+    src: url("./font/Montserrat-Italic-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal; font-style: normal;
+}
+
+.quemsomosContainer{
+    background-color: #D8E1E4;
+    display: flex; 
+    flex-direction: column; align-items: center;
+    padding: 5%;
+    border-radius: 0px 0px 80px 80px;
+}
+
+h3{
+    color: #280D50;
+    font-family: Montserrat Italic;
+    margin-bottom: 2%;
+
+}
+p{
+    font-family: Montserrat;
+    color: #280D50;
+}

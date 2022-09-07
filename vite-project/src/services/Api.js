@@ -18,7 +18,9 @@ export const getFilmes = () => {
     return axios.post(`${url}/filmes`, newFilme)
   }
   
-  export const updateUser = () => {}
+  export const updateUser = (id) => {
+    return axios.put(`${url}/filmes/${id}`)
+  }
   
   export const deleteFilme = (id) => {
     return axios.delete(`${url}/filmes/${id}`)
