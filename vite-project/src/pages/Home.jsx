@@ -4,14 +4,20 @@ import { DriveMyCar } from "../components/Elements/DriveMYCar"
 import { Introduction } from "../components/Elements/Introduction"
 import { CardsContainer } from "../components/CardContainer/CardContainer"
 import { LaJetee } from "../components/Elements/LaJetee";
+import Loading from "../components/Loading/Loading";
 
 function Home() {
   const [data, setData] = useState([]);
+  const [removeLoading, setRemoveLoading] = useState(false)
 
   useEffect(() => {
-    fetch("https://cine-indie-api-resilia.herokuapp.com/filmes")
-      .then((response) => response.json())
-      .then((response) => setData(response));
+    setTimeout(
+      () => {
+        fetch("https://cine-indie-api-resilia.herokuapp.com/filmes")
+        .then((response) => response.json())
+        .then((response) => setData(response));
+        setRemoveLoading(true)
+      }, 3000)
   });
 
   const items = data.map(item => item.image)
@@ -19,6 +25,7 @@ function Home() {
   return (
     <div className="Home">
       <Introduction />
+      {!removeLoading && <Loading />}
       <Carousel item={items} />
       <DriveMyCar />
       <LaJetee />
