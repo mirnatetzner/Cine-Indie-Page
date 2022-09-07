@@ -12,29 +12,29 @@ export const NossoTime = () => {
             <table className="colaboradoresContainerGeral">
                 <tr className="colaboradoresContainer">    
                     <td className="colaboradorcard">
-                        <Link to="https://github.com/mirnatetzner">
+                        <a href="https://github.com/mirnatetzner">
                             <img className="colaboradorcard" src='https://avatars.githubusercontent.com/u/85193127?v=4' width="230px;" alt="Foto de perfil do Github"/>
-                        </Link>
+                        </a>
                         <b>Mirna Tetzner</b>
                     </td>
                     <td className="colaboradorcard">
-                        <Link to="https://github.com/systemilc">
+                        <a href="https://github.com/systemilc">
                             <img className="colaboradorcard" src='https://avatars.githubusercontent.com/u/34551203?v=4' width="230px;" alt="Foto de perfil do Github"/>
-                        </Link>
+                        </a>
                         <b>Isaac Costa</b>
                     </td>
                 </tr>
                 <tr className="colaboradoresContainer2">    
                     <td className="colaboradorcard">
-                        <Link to="https://github.com/alicebranq">
+                        <a href="https://github.com/alicebranq">
                             <img className="colaboradorcard" src='https://avatars.githubusercontent.com/u/102565368?v=4' width="230px;" alt="Foto de perfil do Github"/>
-                        </Link>
+                        </a>
                         <b>Alice Branquinho</b>
                     </td>
                     <td className="colaboradorcard">
-                        <Link to="https://github.com/joaofmds">
+                        <a href="https://github.com/joaofmds">
                         <img className="colaboradorcard" src='https://avatars.githubusercontent.com/u/95502785?v=4' width="230px;" alt="Foto de perfil do Github"/>
-                        </Link>
+                        </a>
                         <b>João Souza</b>
                     </td>
                 </tr>
