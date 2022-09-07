@@ -2,7 +2,6 @@ import Carousel from "../components/Carousel/Carousel";
 import { useEffect, useState } from "react";
 import { DriveMyCar } from "../components/Elements/DriveMYCar"
 import { Introduction } from "../components/Elements/Introduction"
-import { CardsContainer } from "../components/CardContainer/CardContainer"
 import Loading from "../components/Loading/Loading";
 import { Memoria } from "../components/Elements/Memoria";
 
@@ -30,6 +29,7 @@ function Home() {
       <Carousel item={items} />
       <DriveMyCar />
       <Memoria />
+
     </div>
   );
 }
