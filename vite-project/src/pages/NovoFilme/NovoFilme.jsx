@@ -13,7 +13,6 @@ export const CreateFilme = () => {
       <div className={styles.FormFilmes}>
         <FormFilmes hasUser={params.id} onFinish={(filme) => {
           createFilme(filme).then(response => {
-            console.log(filme)
             navigate('/filmes')
           }).catch(error => {
             alert("Erro ao cadastrar novo filme")
