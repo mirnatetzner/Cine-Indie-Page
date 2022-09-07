@@ -9,6 +9,7 @@ import SobreNos from '../pages/SobreNos'
 import ComprarIngresso from '../pages/ComprarIngresso'
 import { Admin } from '../pages/Admin/Admin'
 import { ListaDeFilmes } from '../pages/ListaDeFilmes/ListaDeFilmes'
+import { CreateFilme } from '../pages/NovoFilme/NovoFilme'
 
 
 const Routes = () => {
@@ -23,6 +24,8 @@ const Routes = () => {
         <Route path='/comprar-ingresso' element={<ComprarIngresso />} />
         <Route path='/admin' element={<Admin />} />
         <Route path='/lista_de_filmes'element={<ListaDeFilmes />} />
+        <Route path='/novo_filme'element={<CreateFilme />} />
+        
       </Switch>
       <Footer />
     </BrowserRouter>
