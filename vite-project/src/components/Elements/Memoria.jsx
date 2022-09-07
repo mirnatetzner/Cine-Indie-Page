@@ -1,6 +1,6 @@
 import "./Movies.css"
 
-export const LaJetee = () => {
+export const Memoria = () => {
 
     return (
         <div className="DriveMyCar">
