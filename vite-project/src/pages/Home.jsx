@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import { DriveMyCar } from "../components/Elements/DriveMYCar"
 import { Introduction } from "../components/Elements/Introduction"
 import { CardsContainer } from "../components/CardContainer/CardContainer"
-import { LaJetee } from "../components/Elements/LaJetee";
 import Loading from "../components/Loading/Loading";
+import { Memoria } from "../components/Elements/Memoria";
 
 
 function Home() {
@@ -29,7 +29,7 @@ function Home() {
       {!removeLoading && <Loading />}
       <Carousel item={items} />
       <DriveMyCar />
-      <LaJetee />
+      <Memoria />
     </div>
   );
 }
