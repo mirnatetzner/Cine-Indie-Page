@@ -1,6 +1,6 @@
 import { Card } from "../Card/Card"
 import { Link, Route } from "react-router-dom"
-import style from "./NossoTime.css"
+import "./NossoTime.css"
 
 export const NossoTime = () => {
 
@@ -43,7 +43,7 @@ export const NossoTime = () => {
             <div className="redirecionamento">
                 <div class='redirecionamentobtn'>
                     <h4 id='parceiroslinkto'>
-                        <Link to=''>Conheça também nossos parceiros! </Link> 
+                        <Link to='/parceiros'>Conheça também nossos parceiros! </Link> 
                     </h4>
                 </div>
             </div>
