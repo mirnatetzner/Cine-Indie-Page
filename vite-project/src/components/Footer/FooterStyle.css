@@ -25,12 +25,18 @@ footer {
     text-align: left;
 }
 
+
+body {
+    height: 100%;
+  }
+
+
 .juntese:hover{
     color: #646cff;
     text-decoration: inherit;
   }
 
- 
+
 .containerfooter{
     padding-top: 18px;
     padding-bottom: 22px;
@@ -41,6 +47,7 @@ footer {
     align-items: center;
     
 }
+
 .imgfooter{
     width: 172px;
     height: 50px;
