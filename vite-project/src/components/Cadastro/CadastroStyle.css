@@ -13,32 +13,20 @@ body{
     width: 100%;
 }
 
-.formPage{
+.loginPage{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    padding: 3%;
     margin-top: 3%;
 }
 
-.description, .subtitle { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.description { 
    color: #2b334b;
-   width: 100%;
-   background-color: azure;
-   padding-top: 1rem;
-   padding-bottom: 1rem;
 }
 
-.titleForm {
+.title {
     font-size: 1.8em;
-    color: #4166d4;
-    font-style: italic;
     
 }
 
@@ -58,6 +46,20 @@ body{
     width: min-content;
     align-items: center;
     color: #2b334b;
+}
+
+.lineUp {
+    display: flex;
+    flex-direction: row;
+}
+
+.lineDown {
+    display: flex;
+    flex-direction: row;
+}
+
+.field {
+    padding-right: 5%;
 }
 
 .input {
@@ -101,4 +103,11 @@ body{
 .button:hover {
     background: #10131b;
     
+}
+
+.login {
+    font-size: 12px;
+    flex-direction: row;
+    padding-right: 100px;
+    padding-bottom: -100px;
 }

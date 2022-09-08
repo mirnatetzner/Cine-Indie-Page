@@ -6,6 +6,7 @@ function Filmes() {
 
   return (
     <div className="Filmes">
+    
       <div className="herotitulo">
         <h1 id="filmesemcartaz">FILMES EM CARTAZ </h1>
       </div>
@@ -17,6 +18,9 @@ function Filmes() {
         </div>
 
     </div>
+        <CardsContainer />
+
+     </div>
   )
 }
 

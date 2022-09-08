@@ -11,34 +11,23 @@
 }
 body{
     width: 100%;
+    padding: 0%;
 }
 
-.formPage{
+.loginPage{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    padding: 3%;
     margin-top: 3%;
 }
 
-.description, .subtitle { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.description { 
    color: #2b334b;
-   width: 100%;
-   background-color: azure;
-   padding-top: 1rem;
-   padding-bottom: 1rem;
 }
 
-.titleForm {
+.title {
     font-size: 1.8em;
-    color: #4166d4;
-    font-style: italic;
     
 }
 
@@ -101,4 +90,11 @@ body{
 .button:hover {
     background: #10131b;
     
+}
+
+.cadastro {
+    font-size: 12px;
+    flex-direction: row;
+    padding-right: 100px;
+    padding-bottom: -100px;
 }

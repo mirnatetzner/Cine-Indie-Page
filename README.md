@@ -1,5 +1,11 @@
 # Cine-Indie-Page
-React SPA para pequenos e médios empreendimentos voltados para a exibição de filmes em salas de cinema e seu ecossistema. A aplicação visa facilitar a organização e fluxo de informações para o bom funcionamento desse tipo de estabelecimento, tornando seu gerenciamento menos custoso e mais eficiente.   
+
+Descrição: React SPA para pequenos e médios empreendimentos voltados para a exibição de filmes em salas de cinema e seu ecossistema. 
+## O problema
+O mercado cinematográfico tem enfrentado cada vez mais dificuldade de se estabelecer num ambiente de concorrência com tecnologias de streaming, empresas de redes sociais e entretenimento se atualizando `a uma velocidade cada vez maior. 
+## Solução 
+
+Nossa aplicação visa facilitar a organização e fluxo de informações para o bom funcionamento de salas de exibição de cinema, tornando seu gerenciamento menos custoso e mais eficiente. Dessa forma, tornamos o mercado de entretenimento mais acessível e menos monopolizado por grandes empresas.    
 
 Você pode acessar a página da aplicação (client-side) através do link: ...... 
 

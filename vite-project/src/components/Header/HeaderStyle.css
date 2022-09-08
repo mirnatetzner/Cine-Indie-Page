@@ -4,7 +4,12 @@
   font-weight: normal; font-style: normal;
 }
 
+body {
+  height: 100%;
+}
+
 .nav{
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
   background-color: #70AECF;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -13,6 +18,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;  
+  
   
 }
   #logoheader{

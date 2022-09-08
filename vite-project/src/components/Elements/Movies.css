@@ -8,14 +8,16 @@
     font-weight: normal; font-style: normal;
 
 }
+
 .dmyContainer{
     background-color:#70AECF;
     display: flex; flex-direction: row; justify-content: flex-end;
     border-radius: 60px;
     margin-right: 4%;
+    margin-top: 5%;
 }
 .lajeteeContainer{
-    background-color:#70AECF;
+    background-color:#A7D4DF;
     display: flex; flex-direction: row-reverse; justify-content: flex-end;
     border-radius: 60px;
     margin-right: 4%;
@@ -70,7 +72,6 @@
     }
 h2{
     font-family: Montserrat Italic;
-    margin-top: 5%;
     color:  #280D50;
 }
 h4{
