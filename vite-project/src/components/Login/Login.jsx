@@ -48,7 +48,7 @@ function Login() {
                 </div>
             </form>
             <div>
-                <p>Ainda não se cadastrou? <Link to='/cadastro'>Registre-se!</Link></p>
+                <p className='cadastro'>Ainda não se cadastrou? <Link to='/cadastro'>Registre-se!</Link></p>
             </div>
         </div>
     )
