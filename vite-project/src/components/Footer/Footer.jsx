@@ -11,13 +11,15 @@ export const Footer = () => {
                 <img className='imgfooter' id='logoheader' src={logo}/> 
                 <div className='infosfinais'>
                     <h4>Termos legais</h4>
-                    <p>Ajuda</p>
-                    <p>Juste-se a nós</p>
-                    <p>CNPJ - 14.021.629/0003-01</p>
+                    <p className='juntese'>Ajuda <br/>
+                    Juste-se a nós<br/>
+                    CNPJ - 14.021.629/0003-01<br/>
+                    © Todos os direitos reservados – 2032 – Kine Indie  
+                    </p>
                 </div>
                 <div className='links-to-footer'>
-                    <Link className='linkfooter' to='/parceiros' > Parceiros </Link>
-                    <Link className='linkfooter' to='/sobre_nos' > Sobre Nós </Link>
+                    <Link className='linkfooter' to='/parceiros' > <h5>Parceiros</h5> </Link>
+                    <Link className='linkfooter' to='/sobre_nos' > <h5>Sobre Nós</h5> </Link>
                 </div>
             </div>
         </footer>

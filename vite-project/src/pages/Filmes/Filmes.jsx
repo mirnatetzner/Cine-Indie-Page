@@ -1,17 +1,27 @@
 import { Link } from "react-router-dom"
 import { CardsContainer } from "../../components/CardContainer/CardContainer"
 import './Filmes.css'
+import logodouble from '../../img/logodouble.png'
 
 function Filmes() {
 
   return (
     <div className="Filmes">
-     <h1>Filmes</h1>
-     <Link to='/comprar-ingresso'>
+    
+      <div className="herotitulo">
+        <h1 id="filmesemcartaz">FILMES EM CARTAZ </h1>
+      </div>
+        
         <CardsContainer />
-      
-      </Link> 
+        
+
+        <div className="imageLogo">
+          <img src={logodouble}></img>
+        </div>
+
     </div>
+
+     
   )
 }
 
