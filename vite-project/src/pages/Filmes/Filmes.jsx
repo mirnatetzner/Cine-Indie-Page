@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { CardsContainer } from "../../components/CardContainer/CardContainer"
 import './Filmes.css'
+import logodouble from '../../img/logodouble.png'
 
 function Filmes() {
 
@@ -13,7 +14,7 @@ function Filmes() {
         <CardsContainer />
 
         <div className="imageLogo">
-          <img src="../../img/logodouble.png" />
+          <img src={logodouble}></img>
         </div>
 
     </div>
