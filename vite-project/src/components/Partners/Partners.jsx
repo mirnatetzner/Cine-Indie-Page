@@ -6,7 +6,7 @@ import "./PartnersStyle.css"
 function Partners() {
     return (
         <div className='partnersPage'>
-            <div className='title'>
+            <div className='titlePaceiros'>
                 <h1>Conheça nossos parceiros</h1>
             </div>
             <div className='partners'>
@@ -50,7 +50,7 @@ function Partners() {
                     />
                     <button id='button'>
                         <a href='http://orientcinemas.com.br/' id="link">
-                            Conheça a Estação Net Cinema
+                            Conheça a Orient Cinemas
                         </a>
                     </button> 
                 </div>

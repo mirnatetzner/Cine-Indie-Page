@@ -12,6 +12,7 @@ export const Header = () => {
             <Link className='linknav' to='/filmes' > Em cartaz </Link>
             <Link className='linknav' to='/parceiros' > Parceiros </Link>
             <Link className='linknav' to='/sobre_nos' > Sobre Nós </Link>
+            <Link className='linknav' to='/login' > Login </Link>
         </nav>
     </header>
     )
