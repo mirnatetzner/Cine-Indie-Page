@@ -6,12 +6,12 @@ function Filmes() {
 
   return (
     <div className="Filmes">
+     <div className="herotitulo">
      <h1>Filmes</h1>
-     <Link to='/comprar-ingresso'>
-        <CardsContainer />
-      
-      </Link> 
     </div>
+        <CardsContainer />
+
+     </div>
   )
 }
 

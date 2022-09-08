@@ -13,7 +13,7 @@ function Form() {
     return (
         <div className="formPage">
             <div className="description">
-            <h1 className="title">Quer se tornar um parceiro da Kine Indie também?</h1>
+            <h1 className="titleForm">Quer se tornar um parceiro da Kine Indie também?</h1>
             <h2 className="subtitle">Realize o seu cadastro e nossa equipe entrará em contato.</h2>
             </div>
             <form onSubmit={cadastrarUsuario} className="form">

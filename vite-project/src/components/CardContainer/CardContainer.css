@@ -7,6 +7,8 @@
 }
 .card-container {
   font-family: "Montserrat", sans-serif;
+  min-height: 40rem;
+
 }
 .cards {
   margin: 15px;
@@ -15,6 +17,6 @@
   grid-template-columns: repeat(3, 400px);
   grid-column-gap: 10px;
   grid-row-gap: 1em;
+  
 }
-
 
