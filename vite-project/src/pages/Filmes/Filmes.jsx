@@ -6,8 +6,17 @@ function Filmes() {
 
   return (
     <div className="Filmes">
-     <div className="herotitulo">
-     <h1>Filmes</h1>
+    
+      <div className="herotitulo">
+        <h1 id="filmesemcartaz">FILMES EM CARTAZ </h1>
+      </div>
+        
+        <CardsContainer />
+
+        <div className="imageLogo">
+          <img src="../../img/logodouble.png" />
+        </div>
+
     </div>
         <CardsContainer />
 
