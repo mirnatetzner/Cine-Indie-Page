@@ -6,11 +6,16 @@ function Filmes() {
 
   return (
     <div className="Filmes">
-     <h1>Filmes</h1>
-     <Link to='/comprar-ingresso'>
+      <div className="herotitulo">
+        <h1 id="filmesemcartaz">FILMES EM CARTAZ </h1>
+      </div>
+        
         <CardsContainer />
-      
-      </Link> 
+
+        <div className="imageLogo">
+          <img src="../../img/logodouble.png" />
+        </div>
+
     </div>
   )
 }
