@@ -50,7 +50,7 @@ function Partners() {
                     />
                     <button id='button'>
                         <a href='http://orientcinemas.com.br/' id="link">
-                            Conheça a Estação Net Cinema
+                            Conheça a Orient Cinemas
                         </a>
                     </button> 
                 </div>

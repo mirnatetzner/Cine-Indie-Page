@@ -11,7 +11,7 @@ import { Admin } from '../pages/Admin/Admin'
 import { ListaDeFilmes } from '../pages/ListaDeFilmes/ListaDeFilmes'
 import { CreateFilme } from '../pages/NovoFilme/NovoFilme'
 import SignIn from '../pages/SignIn'
-
+import SignUp from '../pages/SignUp'
 
 const Routes = () => {
   return (
@@ -27,6 +27,7 @@ const Routes = () => {
         <Route path='/lista_de_filmes'element={<ListaDeFilmes />} />
         <Route path='/novo_filme'element={<CreateFilme />} />
         <Route path='/login'element={<SignIn />} />
+        <Route path='/cadastro'element={<SignUp />} />
         
       </Switch>
       <Footer />
