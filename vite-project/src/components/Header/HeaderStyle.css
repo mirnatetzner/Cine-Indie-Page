@@ -4,6 +4,10 @@
   font-weight: normal; font-style: normal;
 }
 
+body {
+  height: 100%;
+}
+
 .nav{
   background-color: #70AECF;
   padding-top: 15px;

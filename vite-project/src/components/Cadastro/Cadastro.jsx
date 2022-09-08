@@ -74,7 +74,7 @@ function Cadastro() {
                 </div>
             </form>
             <div>
-                <p className='login'>Já é cadastrado? <Link to='/cadastro'>Entre!</Link></p>
+                <p className='login'>Já é cadastrado? <Link to='/login'>Entre!</Link></p>
             </div>
         </div>
     )

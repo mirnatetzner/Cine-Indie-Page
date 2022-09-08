@@ -5,6 +5,10 @@ footer {
     left: 0;
 }
 
+body {
+    height: 100%;
+  }
+
 .containerfooter{
     background-color: #70AECF;
     padding-top: 18px;
@@ -15,6 +19,7 @@ footer {
     justify-content: space-around;
     width: 100vw;
 }
+
 .imgfooter{
     width: 22%;
 }
