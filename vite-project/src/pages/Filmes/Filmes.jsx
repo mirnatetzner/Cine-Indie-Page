@@ -13,15 +13,15 @@ function Filmes() {
       </div>
         
         <CardsContainer />
+        
 
         <div className="imageLogo">
           <img src={logodouble}></img>
         </div>
 
     </div>
-        <CardsContainer />
 
-     </div>
+     
   )
 }
 
