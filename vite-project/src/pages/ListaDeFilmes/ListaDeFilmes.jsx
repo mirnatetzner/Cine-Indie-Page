@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { TabelaFilmes } from '../../components/TabelaFilmes/TabelaFilmes'
 import {getFilmes, deleteFilme} from '../../services/Api'
-import styles from './ListaDeFilmes.module.css'
+import './ListaDeFilmes.css'
 
 export const ListaDeFilmes = () => {
   const [filmes, setFilmes] = useState([]);
@@ -19,9 +19,9 @@ export const ListaDeFilmes = () => {
   }, [])
 
   return (
-    <div className={styles.home}>
+    <div className='homeListaFilmes'>
       <h1>Lista de Filmes Cadastrados</h1>
-      <div className={styles.table}>
+      <div className="tabelaFilmes">
         <TabelaFilmes filmes={filmes} onDelete={(id) => {
           const deleteFilmeConfirm = confirm("Você deseja deletar esse Filme?")
           if(deleteFilmeConfirm) {

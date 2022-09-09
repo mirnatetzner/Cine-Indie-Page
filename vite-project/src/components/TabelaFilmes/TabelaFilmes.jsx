@@ -1,9 +1,9 @@
-import styles from './TabelaFilmes.module.css'
+import './TabelaFilmes.css'
 import { Link } from 'react-router-dom'
 export const TabelaFilmes = (props) => {
 
   return (
-    <table className={styles.table}>
+    <table className="table">
       <thead>
         <th>ID</th>
         <th>Nome</th>
@@ -13,6 +13,7 @@ export const TabelaFilmes = (props) => {
         <th>Diretor</th>
         <th>Sinopse</th>
         <th>Link Imagem</th>
+        <th>Ações</th>
       </thead>
       {props.filmes.map(filme => {
         return (

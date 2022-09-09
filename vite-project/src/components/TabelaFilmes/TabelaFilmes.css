@@ -1,4 +1,5 @@
 .table {
+  
     border-collapse: collapse;
     border-width: 2px;
     border-color: #000000;
@@ -8,14 +9,19 @@
     margin: 0 auto;
   }
   
-  
+  th{
+    background-color: #d2d2e4;
+  }
   .table td, .table th {
     border-width: 2px;
-    border-color: #000000;
+    border-color: #0000003a;
     border-style: solid;
     padding: 5px;
   }
-  
-  .table thead {
+
+tr:hover {background-color: #ddd;
+}
+
+.table thead {
     background-color: #EBE4E4;
   }
