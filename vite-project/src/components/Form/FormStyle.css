@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('cooperhewitt-semibold-webfont.woff2') format('woff2'),
+         url('cooperhewitt-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: CooperHewitt;
+}
+body{
+    width: 100%;
+}
+
+.formPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.description, .subtitle { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   color: #2b334b;
+   width: 100%;
+   background-color: azure;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+.titleForm {
+    font-size: 1.8em;
+    color: #4166d4;
+    font-style: italic;
+    
+}
+
+.subtitle {
+    font-size: 1.4em;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 60px;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    width: min-content;
+    align-items: center;
+    color: #2b334b;
+}
+
+.input {
+    min-width: 200px;
+    border-radius: 22px;
+    margin-bottom: 10%;
+    border: 2px #2b334b solid;
+    padding: 5px;
+    margin: 0px 0px 12px -5px;
+}
+
+.input i {
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.input input {
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+.button {
+    margin-top: 10%;
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    background: #2b334b;
+    color: #fff;
+    border: 2px #020203;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 55px;
+    padding-right: 55px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #10131b;
+    
+}
