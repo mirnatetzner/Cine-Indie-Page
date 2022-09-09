@@ -27,13 +27,17 @@ const Pesquisa = () => {
 
   return (
     <div className="pesquisaContainer">
-      <input
+      
+      <h1>Digite o título do Filme</h1>
+      <section className="inpuTebotao"> 
+        
+      <input className="input"
         placeholder="Pesquisa"
         onChange={(event) => {
           setPesquisaInput(event.target.value);
         }}
       ></input>
-      <button
+      <button className="button"
         onClick={(event) => {
           setMostra(true);
           pesquisar();
@@ -78,6 +82,7 @@ const Pesquisa = () => {
             </div>
           );
         })}
+      </section>
     </div>
   );
 };

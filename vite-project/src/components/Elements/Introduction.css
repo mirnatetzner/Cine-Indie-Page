@@ -25,16 +25,14 @@
     flex-direction: column; 
     align-items: center;
     justify-content: center;
-
-    font-size: 70px;
+    font-size: 3.3rem;
 }
 .subhome{
     font-family: Montserrat;
     color: #280D50;
     width: 70vw;
     margin-bottom: 3%;
-
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: center;
     display: flex; 
     flex-direction: column; 
