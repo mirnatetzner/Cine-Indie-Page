@@ -15,9 +15,13 @@ function Login() {
     <div className="loginPage">
       <div className="description">
         <h1 className="title">Bem vindo à Kine Indie!</h1>
+        <p>Dados para acesso demo:</p>
+        <p>admin: admin@admin.com | senha: 123</p>
+        <p>admin: cliente@cliente.com | senha: 123</p>
       </div>
       <form onSubmit={cadastrarUsuario} className="form">
-        <div>
+        
+           <div>
           <label htmlFor="email">
             <b>Email:</b>
           </label>
@@ -54,7 +58,7 @@ function Login() {
               if (email === "admin@admin.com" && password === "123") {
                 navigate("/admin");
               } else if (email === "cliente@cliente.com" && password === "123") {
-                navigate("/");
+                navigate("/comprar-ingresso");
               } else{
                 alert("Dados incorretos. Favor verificar as informações")
               }
@@ -63,6 +67,7 @@ function Login() {
         </div>
       </form>
       <div>
+      
         <p className="cadastro">
           Ainda não se cadastrou? <Link to="/cadastro">Registre-se!</Link>
         </p>
