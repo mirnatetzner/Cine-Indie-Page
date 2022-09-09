@@ -26,25 +26,27 @@ const Pesquisa = () => {
   };
 
   return (
+    <>
+      <h1>Digite o título do Filme:</h1>
     <div className="pesquisaContainer">
       
-      <h1>Digite o título do Filme</h1>
       <section className="inpuTebotao"> 
         
-      <input className="input"
+      <input className="input" 
         placeholder="Pesquisa"
         onChange={(event) => {
           setPesquisaInput(event.target.value);
         }}
       ></input>
-      <button className="button"
+      <button className="button" id='butaoPesquisa'
         onClick={(event) => {
           setMostra(true);
           pesquisar();
         }}
-      >
+        >
         Pesquisar
       </button>
+        </section>
       {mostra &&
         filme.map((item) => {
           return (
@@ -78,12 +80,14 @@ const Pesquisa = () => {
                 <label>Sinopse: </label>
                 <p>{item.sinopse}</p>
               </div>
-              <button><Link to={`/editar_filme/${item.id}`}>Editar</Link></button>
+              <button className="button"><Link to={`/editar_filme/${item.id}`}>Editar</Link></button>
             </div>
+            
           );
         })}
-      </section>
+      
     </div>
+    </>
   );
 };
 
