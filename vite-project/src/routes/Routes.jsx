@@ -13,6 +13,7 @@ import { CreateFilme } from '../pages/NovoFilme/NovoFilme'
 import SignIn from '../pages/SignIn'
 import SignUp from '../pages/SignUp'
 import EditarFilme from '../pages/EditarFilme/EditarFilme'
+import Pesquisa from '../pages/Pesquisa/Pesquisa'
 
 const Routes = () => {
   return (
@@ -30,6 +31,7 @@ const Routes = () => {
         <Route path='/login'element={<SignIn />} />
         <Route path='/cadastro'element={<SignUp />} />
         <Route path='/editar_filme/:id' element={<EditarFilme />} />
+        <Route path='/pesquisa' element={<Pesquisa/>} />
         
       </Switch>
       <Footer />
