@@ -13,13 +13,17 @@ export const getFilmes = () => {
   export const getFilmesById = ()=>{
     return axios.get(`${url}/filmes/${id}`)
   }
+
+  export const getFilmesByIdEditar = (id)=>{
+    return axios.get(`${url}/filmes/${id}`)
+  }
   
   export const createFilme = (newFilme) => {
     return axios.post(`${url}/filmes`, newFilme)
   }
   
-  export const updateUser = (id) => {
-    return axios.put(`${url}/filmes/${id}`)
+  export const updateFilme = (id, updateFilme) => {
+    return axios.put(`${url}/filmes/${id}`, updateFilme)
   }
   
   export const deleteFilme = (id) => {
