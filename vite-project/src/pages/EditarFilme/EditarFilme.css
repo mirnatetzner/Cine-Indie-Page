@@ -1,0 +1,47 @@
+
+.containerMostrarFilme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.mostrarFilmes{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.container-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.displayColunm{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 3px;
+     width: 500px;
+    height: 25px;
+    border-radius: 5px ;
+    border-width: 0.5px;
+    box-shadow: 2px 2px 0 2px rgb(239, 238, 238);
+    outline: none;
+    }
+
+.editButton{
+    background-color: rgb(112, 174, 207);
+    width: 90px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.editButton:hover{
+    background-color: rgb(157, 199, 222);
+}
