@@ -1,22 +1,14 @@
-//  nome: "",
-// 	genero: "",
-// 	duracao: "",
-// 	anoLancamento: "",
-// 	diretor: "",
-// 	sinopse: "",
-// 	image: ""
-
-import { useParams } from "react-router-dom";
-import { getFilmesByIdEditar } from "../../services/Api";
+import { Navigate, useNavigate, useParams } from "react-router-dom";
+import { getFilmesByIdEditar, updateFilme } from "../../services/Api";
 import { useEffect } from "react";
 import { useState } from "react";
-import { FormFilmes } from "../../components/FormFilmes/FormFilmes";
+import "./EditarFilme.module.css";
 
 const EditarFilme = () => {
   const { id } = useParams();
   const [infoFilme, setInfoFilme] = useState([]);
   const [mostraFilme, setMostraFilme] = useState(true);
-  const [filmeAtualizado, setFilmeAtualizado] = useState([
+  const [filmeAtualizado, setFilmeAtualizado] = useState(
     {
       nome: "",
       genero: "",
@@ -24,9 +16,9 @@ const EditarFilme = () => {
       anoLancamento: "",
       diretor: "",
       sinopse: "",
-      image: "",
+      image: ""
     },
-  ]);
+  );
 
   useEffect(() => {
     getFilmesByIdEditar(id).then((response) => {
@@ -34,11 +26,22 @@ const EditarFilme = () => {
     });
   }, []);
 
-  const edit = ({ id }) => {};
+  const navigate = useNavigate();
 
-  console.log(infoFilme);
+  const edit = () => {
+    // event.preventDefault();
+    console.log(filmeAtualizado);
+    updateFilme(id, filmeAtualizado)
+      .then((response) => {
+        alert("Filme Atualizado com sucesso!");
+        navigate("/lista_de_filmes");
+      })
+      
+  };
+
+  
   return (
-    <div>
+    <div className="editarContainer">
       {mostraFilme && (
         <div>
           <p>{infoFilme.id}</p>
@@ -58,71 +61,80 @@ const EditarFilme = () => {
           </button>
         </div>
       )}
-      <div>
-        <input
-          placeholder="Nome"
-          onChange={(event) => {
-            setFilme({
-              ...Filme,
-              nome: event.target.value,
-            });
-          }}
-        ></input>
-        <input
-          placeholder="Gênero"
-          onChange={(event) => {
-            setFilmeAtualizado({
-              ...FilmeAtualizado,
-              genero: event.target.value,
-            });
-          }}
-        ></input>
-        <input
-          placeholder="Duração"
-          onChange={(event) => {
-            setFilmeAtualizado({
-              ...FilmeAtualizado,
-              duracao: event.target.value,
-            });
-          }}
-        ></input>
-        <input
-          placeholder="Ano de Lançamento"
-          onChange={(event) => {
-            setFilmeAtualizado({
-              ...FilmeAtualizado,
-              anoLancamento: event.target.value,
-            });
-          }}
-        ></input>
-        <input
-          placeholder="Diretor"
-          onChange={(event) => {
-            setFilmeAtualizado({
-              ...FilmeAtualizado,
-              diretor: event.target.value,
-            });
-          }}
-        ></input>
-        <input
-          placeholder="Sinopse"
-          onChange={(event) => {
-            setFilmeAtualizado({
-              ...FilmeAtualizado,
-              sinopse: event.target.value,
-            });
-          }}
-        ></input>
-        <input
-          placeholder="Imagem"
-          onChange={(event) => {
-            setFilmeAtualizado({
-              ...FilmeAtualizado,
-              image: event.target.value,
-            });
-          }}
-        ></input>
-      </div>
+      {!mostraFilme && (
+        <div>
+          <input
+            placeholder="Nome"
+            onChange={(event) => {
+              setFilmeAtualizado({
+                ...filmeAtualizado,
+                nome: event.target.value,
+              });
+            }}
+          ></input>
+          <input
+            placeholder="Gênero"
+            onChange={(event) => {
+              setFilmeAtualizado({
+                ...filmeAtualizado,
+                genero: event.target.value,
+              });
+            }}
+          ></input>
+          <input
+            placeholder="Duração"
+            onChange={(event) => {
+              setFilmeAtualizado({
+                ...filmeAtualizado,
+                duracao: event.target.value,
+              });
+            }}
+          ></input>
+          <input
+            placeholder="Ano de Lançamento"
+            onChange={(event) => {
+              setFilmeAtualizado({
+                ...filmeAtualizado,
+                anoLancamento: event.target.value,
+              });
+            }}
+          ></input>
+          <input
+            placeholder="Diretor"
+            onChange={(event) => {
+              setFilmeAtualizado({
+                ...filmeAtualizado,
+                diretor: event.target.value,
+              });
+            }}
+          ></input>
+          <input
+            placeholder="Sinopse"
+            onChange={(event) => {
+              setFilmeAtualizado({
+                ...filmeAtualizado,
+                sinopse: event.target.value,
+              });
+            }}
+          ></input>
+          <input
+            placeholder="Imagem"
+            onChange={(event) => {
+              setFilmeAtualizado({
+                ...filmeAtualizado,
+                image: event.target.value,
+              });
+            }}
+          ></input>
+          <button type="button"
+            onClick={(event) => {
+              edit();
+            }}
+          >
+            Salvar
+          </button>
+        </div>
+      )}
     </div>
   );
 };

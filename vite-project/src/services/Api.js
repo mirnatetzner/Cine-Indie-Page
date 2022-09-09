@@ -22,8 +22,9 @@ export const getFilmes = () => {
     return axios.post(`${url}/filmes`, newFilme)
   }
   
-  export const updateFilme = (id, updateFilme) => {
-    return axios.put(`${url}/filmes/${id}`, updateFilme)
+  export const updateFilme = async (id, updateFilme) => {
+    console.log(`CONSOLE API ${id}, ${updateFilme}`)
+    return await axios.put(`${url}/filmes/${id}`, updateFilme)
   }
   
   export const deleteFilme = (id) => {
