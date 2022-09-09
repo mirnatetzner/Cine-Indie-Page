@@ -1,0 +1,13 @@
+
+.pesquisaContainer{
+   padding: 2%;
+}
+.filmePesquisado{
+    padding: 2%;
+    margin: 2px;
+    border-bottom: 1px solid #70AECF;
+}
+
+.informacoesFilme{
+    display: flex;
+}

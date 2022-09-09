@@ -63,8 +63,9 @@ const EditarFilme = () => {
       )}
       {!mostraFilme && (
         <div>
+          <label>Nome: </label>
           <input
-            placeholder="Nome"
+            value={infoFilme.nome}
             onChange={(event) => {
               setFilmeAtualizado({
                 ...filmeAtualizado,
@@ -72,8 +73,9 @@ const EditarFilme = () => {
               });
             }}
           ></input>
+          <label>Gênero: </label>
           <input
-            placeholder="Gênero"
+            value={infoFilme.genero}
             onChange={(event) => {
               setFilmeAtualizado({
                 ...filmeAtualizado,
@@ -81,8 +83,9 @@ const EditarFilme = () => {
               });
             }}
           ></input>
+          <label>Duração: </label>
           <input
-            placeholder="Duração"
+            value={infoFilme.duracao}
             onChange={(event) => {
               setFilmeAtualizado({
                 ...filmeAtualizado,
@@ -90,8 +93,9 @@ const EditarFilme = () => {
               });
             }}
           ></input>
+          <label>Ano de Lançamento: </label>
           <input
-            placeholder="Ano de Lançamento"
+            value={infoFilme.anoLancamento}
             onChange={(event) => {
               setFilmeAtualizado({
                 ...filmeAtualizado,
@@ -99,8 +103,9 @@ const EditarFilme = () => {
               });
             }}
           ></input>
+          <label>Diretor: </label>
           <input
-            placeholder="Diretor"
+           value={infoFilme.diretor}
             onChange={(event) => {
               setFilmeAtualizado({
                 ...filmeAtualizado,
@@ -108,8 +113,9 @@ const EditarFilme = () => {
               });
             }}
           ></input>
+          <label>Sinopse: </label>
           <input
-            placeholder="Sinopse"
+            value={infoFilme.sinopse}
             onChange={(event) => {
               setFilmeAtualizado({
                 ...filmeAtualizado,
@@ -117,8 +123,9 @@ const EditarFilme = () => {
               });
             }}
           ></input>
+          <label>Imagem: </label>
           <input
-            placeholder="Imagem"
+            value={infoFilme.image}
             onChange={(event) => {
               setFilmeAtualizado({
                 ...filmeAtualizado,
