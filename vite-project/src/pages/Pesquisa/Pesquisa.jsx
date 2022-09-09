@@ -47,7 +47,7 @@ const Pesquisa = () => {
                 <p>{item.duracao}</p>
                 <p>{item.anoLancamento}</p>
                 <p>{item.sinopse}</p>
-                <p>{item.image}</p>
+                <img src={item.image}></img>
 
             </div>
         )
