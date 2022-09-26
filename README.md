@@ -10,7 +10,7 @@ Somos uma plataforma digital de integração dos cinemas independentes no Brasil
 Somos focados nos pequenos e médios empreendedores do cinema nacional e seu ecossistema, e por isso desenvolvemos uma *Single Page Aplication* em React que visa facilitar a organização, fluxo de informações e transações de ingressos para o bom funcionamento desse tipo de estabelecimento, tornando seu gerenciamento menos custoso e mais eficiente. Com a gente o usuário pode encontrar os cinemas independentes mais próximos, ver os filmes em sessão e comprar seus ingressos!
 
 
-[Clique aqui](https://...) para acessar a página da aplicação! 📸
+[Clique aqui](https://cine-indie-page.vercel.app/) para acessar a página da aplicação! 📸
 
 Se quiser consumir o nosso front e customizar à seu gosto basta seguir os passos para a instalação da aplicação em sua máquina:
 
@@ -84,4 +84,4 @@ npm run dev
    
 >**OBS:**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Repositório da API](https://github.com/mirnatetzner/CineIndie-API).<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [WebSite Kine Indie](https://...).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [WebSite Kine Indie](https://cine-indie-page.vercel.app/). (Essa aplicação utilizou a plataforma [Vercel](https://vercel.com/dashboard0) para deploy.)
